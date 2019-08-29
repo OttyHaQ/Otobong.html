@@ -1,0 +1,62 @@
+body{
+	background-color: skyblue;
+	color: black;
+	
+	font: normal 16px Arial, Helvetica, sans-serif;
+	
+	line-height: 1.6em;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+}
+a:active{
+	color: yellow;
+}
+a:visited{
+	color: green;
+}
+
+.d ul{
+	list-style: none;
+	margin: auto;
+	width: 80%
+}
+	
+.a{
+	width:80%;
+	margin: auto;
+	background-color: goldenrod;
+	color: darkblue;
+	text-align: center;
+	border: 5px darkblue solid;
+}
+
+.b{
+	width: 80%;
+	margin:1em;
+	background-color: white;
+	border: 5px darkblue solid;
+	padding: 1em;
+}
+
+.c{
+	width: 80%;
+	margin:auto
+	padding: 5px;
+}
+
+img{
+	size: 10px;
+	margin: auto;
+	float: right;
+	
+}
+img.resize{
+	max-width: 10%;
+	max-height:10%;
+}
+
